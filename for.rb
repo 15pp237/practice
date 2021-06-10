@@ -27,12 +27,12 @@ sums = 0
 for a in number
     result = a.even? ? a/2 : a*2
     sums += result
-    # if a%2 == 0
-        # a = a/2
-    # else
-        # a = a*2
-    # end
-    # sums += a
-    #「a/2」だけでなく「a=a/2」のようにしっかりと定義してあげる。
 end
 puts sums
+# if a%2 == 0
+    # a = a/2
+# else
+    # a = a*2
+# end
+# sums += a
+#「a/2」だけでなく「a=a/2」のようにしっかりと定義してあげる。これでもOK。
