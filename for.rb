@@ -5,7 +5,6 @@
 
 #問題１、それぞれを−１した配列の中身を表示
 numbers = [10,20,30]
-
 for n in numbers
     puts (n-1)
 end
