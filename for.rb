@@ -30,9 +30,9 @@ for a in number
 end
 puts sums
 # if a%2 == 0
-    # a = a/2
+#   a = a/2
 # else
-    # a = a*2
+#   a = a*2
 # end
 # sums += a
 #「a/2」だけでなく「a=a/2」のようにしっかりと定義してあげる。これでもOK。
